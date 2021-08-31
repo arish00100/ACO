@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="register.css">
+</head>
+
+<body>
+    <div class="body-wrapper">
+        <div class="register-panel">
+            <p id="register-title">Register</p>
+            <form class="register-form">
+                <div class="first-name-wrapper">
+                    <label>
+                        First Name <br/>
+                        <input id="first-name" type="text" />
+                    </label>
+                    <div class="form-error">*Invalid name fromat</div>
+                </div>
+                <div class="last-name-wrapper">
+                    <label>
+                        Last Name <br/>
+                        <input id="last-name" type="text" />
+                    </label>
+                    <div class="form-error">*Invalid name fromat</div>
+                </div>
+                <label for="dob">Date Of Birth</label>    
+                <input type="date" id="dob" />    
+                <label>Gender</label>
+                <div class="gender-wrapper">
+                    <label>
+                        <input type="radio" name="gender" />
+                        Male
+                    </label>
+                    <label>
+                        <input type="radio" name="gender" />
+                        Female  
+                    </label>
+                </div> 
+                <label for="address">Address</label>    
+                <textarea id="address" name="address"></textarea>
+                <label for="phone-num">Phone Number</label>
+                <div class="phone-num-wrapper">
+                    <input id="phone-num" type="number" />
+                    <div class="form-error">*Invalid phone number</div>
+                </div>
+                <label for="email">Email Address</label>
+                <div class="email-wrapper">
+                    <input id="email" type="text" />
+                    <div class="form-error">*Invalid email address</div>
+                </div>
+                <label for="password">Password</label>
+                <div>
+                    <input for="password" type="text" />
+                    <div class="form-hint">Here goes hint</div>
+                    <div class="form-error">*Password not matching constraints</div>
+                </div>
+                
+                <label for="confirm-password">Confirm-Password</label>
+                <div class="confirm-password-wrapper">
+                    <input id="confirm-password" type="text" />
+                    <div class="form-error">*Entered password is not the same as above</div>
+                </div>
+                
+                <input id="form-submit" type="submit" value="REGISTER" />
+            </form>
+        </div>
+
+    </div>
+</body>
+
+</html>

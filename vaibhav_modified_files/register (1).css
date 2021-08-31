@@ -1,0 +1,95 @@
+:root {
+    --main-bg-color: rgb(129, 102, 11);;
+}
+
+body {
+    font-family: sans-serif;
+    background-image: url('register-img.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.register-panel {
+    width: 50%;
+    margin: auto;
+    padding: 5px 5px;
+    border-radius: 7px;
+    background-color: white;
+    opacity: 0.9999;
+}
+
+
+.register-form {
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto;
+    row-gap: 30px;
+    column-gap: 60px;
+    justify-content: center;
+    align-items: center;
+}
+
+#register-title {
+    width: 100%;
+    text-align: center;
+    color: var(--main-bg-color);
+    font-size: 38px;
+    margin-bottom: 70px;
+}
+
+.register-panel * label {
+    font-size: 18px;
+    padding: 0px;
+}
+
+.register-panel * input:not([type="radio"]) {
+    width: 100%;
+    font-size:  18px;
+    border-radius: 2px;
+    padding: 10px;
+    border: 1px solid var(--main-bg-color);
+    margin-bottom: 10px;
+    margin-top: 10px;
+   
+}
+
+.form-error {
+    color: red;
+    visibility: hidden;
+    font-size: 15px;
+    padding-left: 5px;
+}
+
+.form-hint {
+    font-size: 15px;
+    padding-left: 10px;
+    color: grey;
+    margin-bottom: 5px;
+}
+
+.gender-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+}
+.register-form > input[type="submit"] {
+    outline: none;
+    border: none;
+    color: white;
+    background-color: var(--main-bg-color);
+    padding: 15px 0px;
+    margin: 50px 0px;
+    grid-column: span 2;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    height: 90px;
+}
+
+
+
+
+
+

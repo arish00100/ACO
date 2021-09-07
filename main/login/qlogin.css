@@ -1,0 +1,119 @@
+:root {
+  --main-bg-color: rgb(129, 102, 11);
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  width: 100%;
+  font-family: sans-serif;
+}
+
+.body-wrapper {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100vh;
+}
+
+.image-wrapper {
+  flex: 2;
+}
+
+.image-wrapper img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 0px 2px 2px 0px;
+}
+
+.account-info-wrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+}
+
+#login-title {
+  flex: 1;
+  text-align: center;
+  color: var(--main-bg-color);
+  font-size: 50px;
+}
+
+.login-panel {
+  flex: 10;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+}
+
+.form-group > label {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.form-group > input {
+  outline: none;
+  border: 1px solid var(--main-bg-color);
+  margin-bottom: 20px;
+  font-size: 15px;
+  border-radius: 7px;
+  padding: 10px;
+}
+
+.form-group > input[type="submit"] {
+  margin-top: 30px;
+  background-color: var(--main-bg-color);
+  border: none;
+  padding: 15px 0px;
+  color: white;
+}
+
+input[type="checkbox"] {
+  vertical-align: middle;
+  position: relative;
+  height: 17px;
+  width: 17px;
+  bottom: 1px;
+}
+
+.keep-sign-control {
+  margin-top: 10px;
+}
+
+.error-placeholder {
+  margin: 0;
+  color: red;
+  text-align: center;
+  margin-bottom: 15px;
+  font-size: 15px;
+}
+
+a {
+  font-size: 15px;
+  text-align: center;
+  color: var(--main-bg-color);
+}
+
+#create-account {
+  flex: 1;
+  margin-bottom: 10px;
+}
+
+.signinicon {
+  text-align: center;
+  display: flex;
+  column-gap: 20px;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.icon {
+  font-size: 2em;
+}

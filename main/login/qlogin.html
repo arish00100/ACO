@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="qlogin.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body>
+    <div class="body-wrapper">
+      <div class="image-wrapper">
+        <img src="dog.jpeg" />
+      </div>
+      <div class="account-info-wrapper">
+        <p id="login-title">Login</p>
+        <div class="login-panel">
+          <form class="form-group">
+            <label for="email">Email</label>
+            <input
+              id="email"
+              required
+              class="form-control"
+              placeholder="Enter email address"
+            />
+            <label for="Password">Password</label>
+            <input
+              id="password"
+              required
+              type="password"
+              class="form-control"
+              placeholder="Enter password"
+            />
+            <p class="error-placeholder" hidden>
+              *Incorrect email and password
+            </p>
+            <div class="keep-sign-control">
+              <label>
+                <input type="checkbox" /> <span>Keep me signed in</span></label
+              >
+            </div>
+            <input type="submit" value="LOGIN" />
+            <div class="signinicon">
+              <i class="fab fa-google icon"></i>
+              <i class="fab fa-facebook-square icon"></i>
+            </div>
+            <a>Forgot password? Click Here</a>
+          </form>
+        </div>
+        <a id="create-account">Don't have an account? Create One</a>
+      </div>
+    </div>
+  </body>
+</html>

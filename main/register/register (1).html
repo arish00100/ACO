@@ -85,16 +85,16 @@
         let iscorrect=true;
         function validate(){
             
-            if(!/^[A-Za-z]+$/.test(document.getElementById("first-name").value)){
-                document.getElementById("first-name-error").style.visibility="visible";
-                iscorrect=false;
-            }
-                // document.forms["myForm"]["first-name-error"].style.visibility="visible";
+            // if(!/^[A-Za-z]+$/.test(document.getElementById("first-name").value)){
+            //     document.getElementById("first-name-error").style.visibility="visible";
+            //     iscorrect=false;
+            // }
+            //     // document.forms["myForm"]["first-name-error"].style.visibility="visible";
 
-            if(!/^[A-Za-z]+$/.test(document.getElementById("last-name").value)){
-                document.getElementById("last-name-error").style.visibility="visible";
-                iscorrect=false;
-            }
+            // if(!/^[A-Za-z]+$/.test(document.getElementById("last-name").value)){
+            //     document.getElementById("last-name-error").style.visibility="visible";
+            //     iscorrect=false;
+            // }
 
             if(!/^\+[0-9]{1,3}-[0-9]{10}$/.test(document.getElementById("phone-num").value)){
                 document.getElementById("phone-num-error").style.visibility="visible";

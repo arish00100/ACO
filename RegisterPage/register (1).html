@@ -82,29 +82,28 @@
 
     <!--Place the validation check here-->
     <script>
-        //flg will return true only if all entries are correct
-        let flg=0;
+        let iscorrect=true;
         function validate(){
             
             if(!/^[A-Za-z]+$/.test(document.getElementById("first-name").value)){
                 document.getElementById("first-name-error").style.visibility="visible";
-                flg=1;
+                iscorrect=false;
             }
                 // document.forms["myForm"]["first-name-error"].style.visibility="visible";
 
             if(!/^[A-Za-z]+$/.test(document.getElementById("last-name").value)){
                 document.getElementById("last-name-error").style.visibility="visible";
-                flg=1;
+                iscorrect=false;
             }
 
             if(!/^\+[0-9]{1,3}-[0-9]{10}$/.test(document.getElementById("phone-num").value)){
                 document.getElementById("phone-num-error").style.visibility="visible";
-                flg=1;
+                iscorrect=false;
             }
 
             if(!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(document.getElementById("email").value)){
                 document.getElementById("email-error").style.visibility="visible";
-                flg=1;
+                iscorrect=false;
             }
             
             //password validation
@@ -112,19 +111,17 @@
             if(pw.length<8 || !(/\d/.test(pw)))
             {
                 document.getElementById("password-error").style.visibility="visible";
-                flg=1;
+                iscorrect=false;
             }
 
 
             let pw2=document.getElementById("confirm-password").value;
             if(pw2!=pw){
                 document.getElementById("confirm-password-error").style.visibility="visible";
-                flg=1;
+                iscorrect=false;
             }
 
-            if(flg==1)
-                return false;
-            return true;
+            return iscorrect;
         }
     </script>
 </body>

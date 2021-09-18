@@ -1,2 +1,2 @@
 # ACO
-Place the final module in the main folder that we will show for demonstration. 
+A site for animal care, presenting every possible detail about animal health/care, regardless of a particular animal being a pet or a stray. Our project basically, will educate you on how to be around animals, how to treat them, what to do in case of animal health emergencies etc. It will also contain emergency contact information. We will try to expand our project gradually by increasing our domain and will develop accordingly. 

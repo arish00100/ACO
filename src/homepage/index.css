@@ -1,0 +1,51 @@
+:root {
+    --main-bg-color: rgb(129, 102, 11);
+}
+
+body{
+  font-family: sans-serif;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    margin: 10px;
+}
+
+.logo-header{
+    text-align: center;
+    font-size: 1.9rem;
+    color: var(--main-bg-color);
+}
+
+.nav{
+    flex: 1;
+}
+
+.nav > ul{
+    list-style: none;
+    display: flex;
+    font-size: 1rem;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: end;
+}
+
+.nav > ul > li > a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.nav > ul > li{
+    margin-inline: 30px;
+}
+
+#login-reg{
+    background-color: var(--main-bg-color);
+    color: white;   
+    padding: 10px;
+    border-radius: 20px;
+}

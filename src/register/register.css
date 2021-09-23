@@ -78,7 +78,7 @@ body {
     color: white;
     background-color: var(--main-bg-color);
     padding: 15px 0px;
-    margin: 50px 0px;
+    margin: 20px 0px;
     grid-column: span 2;
 }
 
@@ -88,6 +88,15 @@ textarea {
     height: 90px;
 }
 
+.instead{
+    text-align: center;
+    margin-bottom:50px;
+    font-size: 15px;
+}
+
+a{
+    color:var(--main-bg-color)
+}
 
 
 

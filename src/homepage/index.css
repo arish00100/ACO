@@ -1,51 +1,97 @@
 :root {
-    --main-bg-color: rgb(129, 102, 11);
+    --main-bg-color: rgb(158, 124, 14);
 }
 
 body{
   font-family: sans-serif;
+  margin: 0;
 }
 
-header{
+header {
     display: flex;
     flex-direction: row;
-    align-items: baseline;
-    margin: 10px;
+    width: 100%;
+    overflow: hidden;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 .logo-header{
-    text-align: center;
     font-size: 1.9rem;
     color: var(--main-bg-color);
 }
 
-.nav{
-    flex: 1;
+.logo {
+    margin-right: auto;
+    text-align: center;
+    display: inline;
 }
 
-.nav > ul{
+nav ul {
+    height: 100%;
+    margin: 0;
     list-style: none;
-    display: flex;
-    font-size: 1rem;
-    flex-direction: row;
-    align-items: baseline;
-    justify-content: end;
 }
 
-.nav > ul > li > a{
+nav ul li {
+    display: inline-block;
+}
+
+
+nav ul li :hover{
+    background-color: var(--main-bg-color);
+    color: white;
+}
+
+nav ul li a{
+    vertical-align: middle;
+    padding-inline: 30px;
+    padding-block: 150px;
     text-decoration: none;
     color: black;
 }
 
-
-
-.nav > ul > li{
-    margin-inline: 30px;
+.landing_title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 
-#login-reg{
-    background-color: var(--main-bg-color);
-    color: white;   
-    padding: 10px;
-    border-radius: 20px;
+.landing_wrapper {
+    margin: auto;
 }
+
+.landing_header {
+    color: var(--main-bg-color);
+    font-size: 4rem;
+}
+
+.landing_description {
+    font-size: 3rem;
+    font-family: cursive;
+}
+
+.landing_image {
+    height: 90vh;
+}
+
+.service_wrapper {
+    margin-top: 40px;
+    width: 100%;
+}
+
+.service_title {
+    font-size: 3rem;
+    text-align: center;
+    color: var(--main-bg-color);
+}
+
+
+
+
+
+
+
+
+

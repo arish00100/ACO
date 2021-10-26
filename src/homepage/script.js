@@ -9,4 +9,9 @@ function changeNavBar() {
     }
 }
 
+document.getElementById('service_button').addEventListener('click', () => {
+    console.log('Clicked')
+    document.getElementById('service_wrapper').scrollIntoView({ block: 'start',  behavior: 'smooth' });
+});
+
 window.addEventListener('scroll', changeNavBar, false);

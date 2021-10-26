@@ -92,7 +92,7 @@ nav ul li a{
     height: 90vh;
 }
 
-.service_wrapper {
+#service_wrapper {
     margin-top: 40px;
     width: 100%;
 }

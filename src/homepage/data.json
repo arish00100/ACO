@@ -1,0 +1,42 @@
+[
+  {
+    "img": "https://di7dud5r8j0ls.cloudfront.net//fit-in/187x140/puppies/images/IMG_20210917_095640.jpg",
+    "name": "Pepper",
+    "Gender": "Female",
+    "City": "Chennai",
+    "JoinDate": "September 17, 2021",
+    "Status": "Available"
+  },
+  {
+    "img": "https://di7dud5r8j0ls.cloudfront.net//fit-in/187x140/puppies/images/20210912_165012.jpg",
+    "name": "Buddy",
+    "Gender": "Male",
+    "City": "Gurgaon",
+    "JoinDate": "September 16, 2021",
+    "Status": "Available"
+  },
+  {
+    "img": "https://di7dud5r8j0ls.cloudfront.net//fit-in/187x140/puppies/images/IMG-20210807-WA0010.jpg",
+    "name": "Chia",
+    "Gender": "Female",
+    "City": "New Delhi",
+    "JoinDate": "September 15, 2021",
+    "Status": "Available"
+  },
+  {
+    "img": "https://di7dud5r8j0ls.cloudfront.net//fit-in/187x140/puppies/images/WhatsApp%20Image%202021-08-30%20at%2019.26.10.jpeg",
+    "name": "Rover",
+    "Gender": "Male",
+    "City": "New Delhi",
+    "JoinDate": "September 6, 2021",
+    "Status": "Available"
+  },
+  {
+    "img": "https://di7dud5r8j0ls.cloudfront.net//fit-in/187x140/puppies/images/mini%20chini.jpeg",
+    "name": "Mini",
+    "Gender": "Female",
+    "City": "Kolkata",
+    "JoinDate": "September 2, 2021",
+    "Status": "Adopted"
+  }
+]

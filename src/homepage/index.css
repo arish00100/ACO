@@ -1,113 +1,133 @@
 :root {
-    --main-bg-color: rgb(158, 124, 14);
+  --main-bg-color: rgb(158, 124, 14);
 }
 
-body{
+body {
   font-family: sans-serif;
   margin: 0;
 }
 
 #header_wrapper {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    overflow: hidden;
-    justify-content: flex-end;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  overflow: hidden;
+  justify-content: flex-end;
+  align-items: center;
 }
 
 .fixed_bar {
-    animation: fixed_bar_animation 1s;
-    animation-fill-mode: forwards;
+  animation: fixed_bar_animation 1s;
+  animation-fill-mode: forwards;
 }
 
 @keyframes fixed_bar_animation {
-    100% {
-        position: fixed;
-        background-color: white;
-        box-shadow: 0 1px 2px rgb(0 0 0 / 0.2);
-    }
+  100% {
+    position: fixed;
+    background-color: white;
+    box-shadow: 0 1px 2px rgb(0 0 0 / 0.2);
+  }
 }
 
-.logo-header{
-    font-size: 1.9rem;
-    color: var(--main-bg-color);
+.logo-header {
+  font-size: 1.9rem;
+  color: var(--main-bg-color);
 }
 
 .logo {
-    margin-right: auto;
-    margin-left: 40px;
-    text-align: center;
-    display: inline;
-    margin-block: 5px;
+  margin-right: auto;
+  margin-left: 40px;
+  text-align: center;
+  display: inline;
+  margin-block: 5px;
 }
 
 nav ul {
-    height: 100%;
-    margin: 0;
-    list-style: none;
+  height: 100%;
+  margin: 0;
+  list-style: none;
 }
 
 nav ul li {
-    display: inline-block;
+  display: inline-block;
 }
 
-
-nav ul li :hover{
-    background-color: var(--main-bg-color);
-    color: white;
+nav ul li :hover {
+  background-color: var(--main-bg-color);
+  color: white;
 }
 
-nav ul li a{
-    vertical-align: middle;
-    padding-inline: 30px;
-    padding-block: 150px;
-    font-size: 1.1rem;
-    text-decoration: none;
-    color: black;
+nav ul li a {
+  vertical-align: middle;
+  padding-inline: 30px;
+  padding-block: 150px;
+  font-size: 1.1rem;
+  text-decoration: none;
+  color: black;
 }
 
 .landing_title {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .landing_wrapper {
-    margin: auto;
+  margin: auto;
 }
 
 .landing_header {
-    color: var(--main-bg-color);
-    font-size: 4rem;
+  color: var(--main-bg-color);
+  font-size: 4rem;
 }
 
 .landing_description {
-    font-size: 3rem;
-    font-family: cursive;
+  font-size: 3rem;
+  font-family: cursive;
 }
 
 .landing_image {
-    height: 90vh;
+  height: 90vh;
 }
 
 #service_wrapper {
-    margin-top: 40px;
-    width: 100%;
+  margin-top: 40px;
+  width: 100%;
 }
 
 .service_title {
-    font-size: 3rem;
-    text-align: center;
-    color: var(--main-bg-color);
+  font-size: 3rem;
+  text-align: center;
+  color: var(--main-bg-color);
 }
 
+a {
+  color: #000000;
+  text-decoration: none;
+}
 
+.pet-adoption {
+  display: inline-block;
+  border: #000000 solid 1px;
+  margin-left: 10px;
+}
 
+.img {
+  display: flex;
 
+  justify-content: center;
+  margin-top: 3px;
+}
 
+img {
+  border-radius: 3px;
+}
 
-
-
-
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}

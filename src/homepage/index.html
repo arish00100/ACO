@@ -1,40 +1,45 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-    <title>HomePage</title>
+  <head>
+    <title>ACO - Animal Care Organization | Homepage</title>
     <link rel="stylesheet" href="index.css" />
-</head>
+  </head>
 
-<body>
+  <body>
     <header id="header_wrapper">
-        <div class="logo">
-            <div class="logo-header">ACO</div>
-            <div>Animal Care Organization</div>
-        </div>
-        <nav>
-            <ul>
-                <li id="service_button"><a>Services</a></li>
-                <li><a href="../about/module.html">About</a></li>
-                <li><a id="login-reg" href="../login/qlogin.html">Login / Register</a></li>
-            </ul>
-        </nav>
-
+      <div class="logo">
+        <div class="logo-header"><a href="./index.html">ACO</a></div>
+        <div><a href="./index.html">Animal Care Organization</a></div>
+      </div>
+      <nav>
+        <ul>
+          <li id="service_button"><a>Services</a></li>
+          <li><a href="../about/module.html">About</a></li>
+          <li>
+            <a id="login-reg" href="../login/qlogin.html">Login / Register</a>
+          </li>
+        </ul>
+      </nav>
     </header>
 
     <div class="landing_title">
-        <img class="landing_image" src="./landing-page.png" />
-        <div class="landing_wrapper">
-            <div class="landing_header">Services</div>
-            <div class="landing_description">That provide home and love to animals.</div>
+      <img class="landing_image" src="./landing-page.png" />
+      <div class="landing_wrapper">
+        <div class="landing_header">Services</div>
+        <div class="landing_description">
+          That provide home and love to animals.
         </div>
+      </div>
     </div>
 
     <div id="service_wrapper">
-        <p class="service_title">How can we help you ?</p>
+      <p class="service_title">How can we help you ?</p>
     </div>
 
-    <script src="script.js"></script>
-</body>
+    <h2>Pets for Adoption</h2>
+    <div class="pet-section"></div>
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+  </body>
 </html>
